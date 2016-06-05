@@ -3,7 +3,7 @@
 var express = require('express')
   , router = express.Router()
   , accountSid = 'ACd489c9c5671e1260e7c68e4c80faca5f'
-  , authToken = 'e0f670bb39bdf49951bf6fc7889e4cd8';
+  , authToken = 'e0f670bb39bdf49951bf6fc7889e4cd8'
   , twilio = require('twilio')(accountSid, authToken)
   , foodFinder = require('../lib/food-finder')
   , _ =  require('underscore')

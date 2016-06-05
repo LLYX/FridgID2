@@ -7,7 +7,7 @@ var dbConnection = function() {
     return 'mongodb://localhost/test';
   }
 
-  return 'mongodb://localhost:3000/food-pantry';
+  return 'mongodb://localhost/food-pantry';
 };
 
 config.dbConnection = dbConnection();
