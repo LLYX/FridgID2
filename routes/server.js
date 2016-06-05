@@ -33,7 +33,7 @@ router.post('/search/', function(req, res, next) {
         res.send(twimlGenerator.singleFood(foods[0]).toString());
       } else {
         var options = _.map(foods, function(it, index) {
-          return { option: index + 1, fullName: it.fullName, id: it.id };
+          return { option: index + 1, name: it.name, id: it.id };
         });
         var cachedFoods = _.object(_.map(options, function(it) { return [it.option, it.id]; }));
         res.cookie('cachedFoods', cachedFoods, { maxAge: 1000 * 60 * 60 });
