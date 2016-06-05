@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose');
 
-var Employee = new mongoose.Schema({
+var Food = new mongoose.Schema({
   name: String,
   amount: String,
   expiration: String,

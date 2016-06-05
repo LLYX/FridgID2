@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Milk",
+		"amount": "2 L",
+		"expiration": "6-21-2016"
+	},
+	{
+		"name": "Apples",
+		"amount": "4",
+		"expiration": "6-24-2016"
+	}
+]
